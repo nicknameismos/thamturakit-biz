@@ -1,0 +1,19 @@
+<!--
+  Generated template for the CreatProductPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Create Product</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <ion-form-product *ngIf="categories && categories.length > 0 && shippings && shippings.length > 0 && shops && shops.length > 0"
+    [categories]="categories" [shippings]="shippings" [shops]="shops" (itemClicked)="createProduct($event)"></ion-form-product>
+</ion-content>
