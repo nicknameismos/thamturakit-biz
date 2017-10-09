@@ -25679,7 +25679,7 @@ page-order #segmentOrd {
   display: block;
   overflow-x: scroll !important;
   white-space: nowrap !important;
-  background-color: #558866  !important;
+  background-color: #1ab394  !important;
 }
 
 page-order #segmentOrd #segmentOrdBtn {
@@ -25701,7 +25701,7 @@ page-order .grid {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  background-color: #586;
+  background-color: #1ab394;
 }
 
 page-order .col {
@@ -26063,7 +26063,7 @@ page-tabs .tabs-ios .tab-button[aria-selected=true] .tab-button-icon {
 }
 
 page-tabs .tabs-ios .tabbar {
-  background: #5c926e;
+  background: #1ab394;
 }
 
 page-tabs .tabs-ios .tab-button[aria-selected=true] {
@@ -26084,11 +26084,11 @@ page-tabs .tabs-md .tab-button[aria-selected=true] .tab-button-icon {
 }
 
 page-tabs .tabs-md .tabbar {
-  background: #5c926e;
+  background: #1ab394;
 }
 
 page-tabs .tabs-md .tab-button[aria-selected=true] {
-  background-color: #d8625d;
+  background-color: #ad7e6d;
   color: #f4f4f4;
 }
 
