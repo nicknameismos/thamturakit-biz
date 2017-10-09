@@ -886,7 +886,7 @@ webpackEmptyAsyncContext.id = 134;
 
 var map = {
 	"../pages/account/account.module": [
-		509,
+		508,
 		11
 	],
 	"../pages/creat-product/creat-product.module": [
@@ -894,7 +894,7 @@ var map = {
 		10
 	],
 	"../pages/createshop/createshop.module": [
-		508,
+		509,
 		9
 	],
 	"../pages/listshop/listshop.module": [
@@ -922,11 +922,11 @@ var map = {
 		3
 	],
 	"../pages/product/product.module": [
-		518,
+		517,
 		2
 	],
 	"../pages/register/register.module": [
-		517,
+		518,
 		1
 	],
 	"../pages/tabs/tabs.module": [
@@ -1078,7 +1078,7 @@ __decorate([
 ], HomePage.prototype, "lineCanvas", void 0);
 HomePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-home',template:/*ion-inline-start:"D:\mosthamapp\thamturakit-biz\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      Home\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content no-padding>\n\n  <ion-row no-padding>\n\n    <ion-col col-12>\n\n      <img class="font-jjgreen" src="./assets/image/x1.png">\n\n    </ion-col>\n\n  </ion-row>\n\n  <ion-card>\n\n    <ion-card-header>\n\n      Line Chart\n\n    </ion-card-header>\n\n    <ion-card-content>\n\n      <canvas #lineCanvas></canvas>\n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n  <ion-card>\n\n    <ion-card-header>\n\n      Doughnut Chart\n\n    </ion-card-header>\n\n    <ion-card-content>\n\n      <canvas #doughnutCanvas></canvas>\n\n    </ion-card-content>\n\n  </ion-card>\n\n</ion-content>'/*ion-inline-end:"D:\mosthamapp\thamturakit-biz\src\pages\home\home.html"*/
+        selector: 'page-home',template:/*ion-inline-start:"D:\mosthamapp\thamturakit-biz\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      Home\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content no-padding>\n\n  <ion-card>\n\n    <ion-card-header>\n\n      Line Chart\n\n    </ion-card-header>\n\n    <ion-card-content>\n\n      <canvas #lineCanvas></canvas>\n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n  <ion-card>\n\n    <ion-card-header>\n\n      Doughnut Chart\n\n    </ion-card-header>\n\n    <ion-card-content>\n\n      <canvas #doughnutCanvas></canvas>\n\n    </ion-card-content>\n\n  </ion-card>\n\n</ion-content>'/*ion-inline-end:"D:\mosthamapp\thamturakit-biz\src\pages\home\home.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__ngcommerce_core__["o" /* OrderService */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]])
 ], HomePage);
@@ -1210,8 +1210,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_21_ionic2_rating__["a" /* Ionic2RatingModule */],
             __WEBPACK_IMPORTED_MODULE_11_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_12__app_component__["a" /* MyApp */], {}, {
                 links: [
-                    { loadChildren: '../pages/createshop/createshop.module#CreateshopPageModule', name: 'CreateshopPage', segment: 'createshop', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/account/account.module#AccountPageModule', name: 'AccountPage', segment: 'account', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/createshop/createshop.module#CreateshopPageModule', name: 'CreateshopPage', segment: 'createshop', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/creat-product/creat-product.module#CreatProductPageModule', name: 'CreatProductPage', segment: 'creat-product', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/listshop/listshop.module#ListshopPageModule', name: 'ListshopPage', segment: 'listshop', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
@@ -1219,8 +1219,8 @@ AppModule = __decorate([
                     { loadChildren: '../pages/order-detail/order-detail.module#OrderDetailPageModule', name: 'OrderDetailPage', segment: 'order-detail', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/order/order.module#OrderPageModule', name: 'OrderPage', segment: 'order', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/product-detail/product-detail.module#ProductDetailPageModule', name: 'ProductDetailPage', segment: 'product-detail', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/register/register.module#RegisterPageModule', name: 'RegisterPage', segment: 'register', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/product/product.module#ProductPageModule', name: 'ProductPage', segment: 'product', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/register/register.module#RegisterPageModule', name: 'RegisterPage', segment: 'register', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/tabs/tabs.module#TabsPageModule', name: 'TabsPage', segment: 'tabs', priority: 'low', defaultHistory: [] }
                 ]
             }),

@@ -46,7 +46,7 @@ var AccountPage = (function () {
 }());
 AccountPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["n" /* Component */])({
-        selector: 'page-account',template:/*ion-inline-start:"C:\Users\TEMP\Desktop\thamturakit-biz\src\pages\account\account.html"*/'<!--\n\n  Generated template for the AccountPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Profile</ion-title>\n\n    <ion-buttons start>\n\n      <button ion-button menuToggle icon-only>\n\n        <ion-icon name="md-list"></ion-icon>\n\n      </button>\n\n    </ion-buttons>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n<ion-content>\n\n  <ion-form-profile [item]="user" (itemClicked)="logout($event)" (settingClicked)="createshop($event)"></ion-form-profile>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\TEMP\Desktop\thamturakit-biz\src\pages\account\account.html"*/,
+        selector: 'page-account',template:/*ion-inline-start:"D:\mosthamapp\thamturakit-biz\src\pages\account\account.html"*/'<!--\n\n  Generated template for the AccountPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Profile</ion-title>\n\n    <ion-buttons start>\n\n      <button ion-button menuToggle icon-only>\n\n        <ion-icon name="md-list"></ion-icon>\n\n      </button>\n\n    </ion-buttons>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n<ion-content>\n\n  <ion-form-profile [item]="user" (itemClicked)="logout($event)" (settingClicked)="createshop($event)"></ion-form-profile>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\mosthamapp\thamturakit-biz\src\pages\account\account.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["j" /* NavParams */]])
 ], AccountPage);
@@ -125,7 +125,7 @@ var ListshopPage = (function () {
 }());
 ListshopPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["n" /* Component */])({
-        selector: 'page-listshop',template:/*ion-inline-start:"C:\Users\TEMP\Desktop\thamturakit-biz\src\pages\listshop\listshop.html"*/'<!--\n\n  Generated template for the ListshopPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Listshop</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content >\n\n<ion-list-shop [items]="shop.items"></ion-list-shop>\n\n<ion-fab bottom right>\n\n  <button ion-fab (click)="createShopModal()"><ion-icon name="add"></ion-icon></button>\n\n</ion-fab>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\TEMP\Desktop\thamturakit-biz\src\pages\listshop\listshop.html"*/,
+        selector: 'page-listshop',template:/*ion-inline-start:"D:\mosthamapp\thamturakit-biz\src\pages\listshop\listshop.html"*/'<!--\n\n  Generated template for the ListshopPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Listshop</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content >\n\n<ion-list-shop [items]="shop.items"></ion-list-shop>\n\n<ion-fab bottom right>\n\n  <button ion-fab (click)="createShopModal()"><ion-icon name="add"></ion-icon></button>\n\n</ion-fab>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"D:\mosthamapp\thamturakit-biz\src\pages\listshop\listshop.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["i" /* NavController */],
         __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["j" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__ngcommerce_core__["r" /* ShopService */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["h" /* ModalController */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["f" /* LoadingController */]])
@@ -251,7 +251,7 @@ CreatProductPage = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__register_register__ = __webpack_require__(125);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_facebook__ = __webpack_require__(313);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_facebook__ = __webpack_require__(315);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ngcommerce_core__ = __webpack_require__(18);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -326,7 +326,7 @@ var LoginPage = (function () {
 }());
 LoginPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_2__angular_core__["n" /* Component */])({
-        selector: 'page-login',template:/*ion-inline-start:"C:\Users\TEMP\Desktop\thamturakit-biz\src\pages\login\login.html"*/'<!--\n\n  Generated template for the LoginPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Login</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n<ion-item>\n\n  <ion-label floating >Username</ion-label>\n\n  <ion-input type="text" [(ngModel)]="credential.username"></ion-input>\n\n</ion-item>\n\n<ion-item>\n\n  <ion-label floating >Password</ion-label>\n\n  <ion-input type="password" [(ngModel)]="credential.password"></ion-input>\n\n</ion-item>\n\n\n\n<button ion-button (click)="login()" block >Login</button>\n\n<button ion-button (click)="register()" block >Register</button>\n\n<button ion-button (click)="loginfb()" block >login with Facebook</button>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\TEMP\Desktop\thamturakit-biz\src\pages\login\login.html"*/,
+        selector: 'page-login',template:/*ion-inline-start:"D:\mosthamapp\thamturakit-biz\src\pages\login\login.html"*/'<!--\n\n  Generated template for the LoginPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Login</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n<ion-item>\n\n  <ion-label floating >Username</ion-label>\n\n  <ion-input type="text" [(ngModel)]="credential.username"></ion-input>\n\n</ion-item>\n\n<ion-item>\n\n  <ion-label floating >Password</ion-label>\n\n  <ion-input type="password" [(ngModel)]="credential.password"></ion-input>\n\n</ion-item>\n\n\n\n<button ion-button (click)="login()" block >Login</button>\n\n<button ion-button (click)="register()" block >Register</button>\n\n<button ion-button (click)="loginfb()" block >login with Facebook</button>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"D:\mosthamapp\thamturakit-biz\src\pages\login\login.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_3_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["j" /* NavParams */], __WEBPACK_IMPORTED_MODULE_4__ionic_native_facebook__["a" /* Facebook */], __WEBPACK_IMPORTED_MODULE_5__ngcommerce_core__["a" /* AuthenService */], __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["f" /* LoadingController */]])
 ], LoginPage);
@@ -377,7 +377,7 @@ var NotificationPage = (function () {
 }());
 NotificationPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-notification',template:/*ion-inline-start:"C:\Users\TEMP\Desktop\thamturakit-biz\src\pages\notification\notification.html"*/'<!--\n\n  Generated template for the NotificationPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Notification</ion-title>\n\n    <ion-buttons start>\n\n      <button ion-button menuToggle icon-only>\n\n        <ion-icon name="md-list"></ion-icon>\n\n      </button>\n\n    </ion-buttons>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content>\n\n  <ion-list>\n\n    <ion-item *ngFor="let noti of notifications">\n\n      <h3>{{ noti.message }}</h3>\n\n      <p>{{ noti.date | date: \'dd MMMM yyyy HH:mm:ss a\'}}</p>\n\n    </ion-item>\n\n  </ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\TEMP\Desktop\thamturakit-biz\src\pages\notification\notification.html"*/,
+        selector: 'page-notification',template:/*ion-inline-start:"D:\mosthamapp\thamturakit-biz\src\pages\notification\notification.html"*/'<!--\n\n  Generated template for the NotificationPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Notification</ion-title>\n\n    <ion-buttons start>\n\n      <button ion-button menuToggle icon-only>\n\n        <ion-icon name="md-list"></ion-icon>\n\n      </button>\n\n    </ion-buttons>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content>\n\n  <ion-list>\n\n    <ion-item *ngFor="let noti of notifications">\n\n      <h3>{{ noti.message }}</h3>\n\n      <p>{{ noti.date | date: \'dd MMMM yyyy HH:mm:ss a\'}}</p>\n\n    </ion-item>\n\n  </ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\mosthamapp\thamturakit-biz\src\pages\notification\notification.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]])
 ], NotificationPage);
@@ -494,7 +494,7 @@ var ProductPage = (function () {
 }());
 ProductPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_2__angular_core__["n" /* Component */])({
-        selector: 'page-product',template:/*ion-inline-start:"C:\Users\TEMP\Desktop\thamturakit-biz\src\pages\product\product.html"*/'<!--\n\n  Generated template for the ProductPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Product</ion-title>\n\n    <ion-buttons start>\n\n      <button ion-button menuToggle icon-only>\n\n        <ion-icon name="md-list"></ion-icon>\n\n      </button>\n\n    </ion-buttons>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content>\n\n  <ion-list-product [items]="product.items" (selectedProduct)="selected($event)"></ion-list-product>\n\n\n\n  <ion-fab bottom right>\n\n    <button ion-fab (click)="addProductModal()"><ion-icon name="add"></ion-icon></button>\n\n  </ion-fab>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\TEMP\Desktop\thamturakit-biz\src\pages\product\product.html"*/,
+        selector: 'page-product',template:/*ion-inline-start:"D:\mosthamapp\thamturakit-biz\src\pages\product\product.html"*/'<!--\n\n  Generated template for the ProductPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Product</ion-title>\n\n    <ion-buttons start>\n\n      <button ion-button menuToggle icon-only>\n\n        <ion-icon name="md-list"></ion-icon>\n\n      </button>\n\n    </ion-buttons>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content>\n\n  <ion-list-product [items]="product.items" (selectedProduct)="selected($event)"></ion-list-product>\n\n\n\n  <ion-fab bottom right>\n\n    <button ion-fab (click)="addProductModal()"><ion-icon name="add"></ion-icon></button>\n\n  </ion-fab>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"D:\mosthamapp\thamturakit-biz\src\pages\product\product.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_3_ionic_angular__["i" /* NavController */],
         __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["j" /* NavParams */],
@@ -563,7 +563,7 @@ var ProductDetailPage = (function () {
 }());
 ProductDetailPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-product-detail',template:/*ion-inline-start:"C:\Users\TEMP\Desktop\thamturakit-biz\src\pages\product-detail\product-detail.html"*/'<!--\n\n  Generated template for the ProductDetailPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>productDetail</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content>\n\n  <ion-detail-product [item]="items" [isReview]="false"></ion-detail-product>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\TEMP\Desktop\thamturakit-biz\src\pages\product-detail\product-detail.html"*/,
+        selector: 'page-product-detail',template:/*ion-inline-start:"D:\mosthamapp\thamturakit-biz\src\pages\product-detail\product-detail.html"*/'<!--\n\n  Generated template for the ProductDetailPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>productDetail</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content>\n\n  <ion-detail-product [item]="items" [isReview]="false"></ion-detail-product>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\mosthamapp\thamturakit-biz\src\pages\product-detail\product-detail.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__ngcommerce_core__["p" /* ProductService */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]])
 ], ProductDetailPage);
@@ -655,7 +655,7 @@ var OrderPage = (function () {
 }());
 OrderPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-order',template:/*ion-inline-start:"C:\Users\TEMP\Desktop\thamturakit-biz\src\pages\order\order.html"*/'<!--\n\n  Generated template for the OrderPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Order</ion-title>\n\n    <ion-buttons start>\n\n      <button ion-button menuToggle icon-only>\n\n        <ion-icon name="md-list"></ion-icon>\n\n      </button>\n\n    </ion-buttons>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content>\n\n  <ion-orders [steps]="steps" [channel]="channel">\n\n    <ion-segment-order *ngIf="order && order.waiting" [items]="order" (SelectedOrder)="selectedItem($event)"></ion-segment-order>\n\n  </ion-orders>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\TEMP\Desktop\thamturakit-biz\src\pages\order\order.html"*/,
+        selector: 'page-order',template:/*ion-inline-start:"D:\mosthamapp\thamturakit-biz\src\pages\order\order.html"*/'<!--\n\n  Generated template for the OrderPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Order</ion-title>\n\n    <ion-buttons start>\n\n      <button ion-button menuToggle icon-only>\n\n        <ion-icon name="md-list"></ion-icon>\n\n      </button>\n\n    </ion-buttons>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content>\n\n  <ion-orders [steps]="steps" [channel]="channel">\n\n    <ion-segment-order *ngIf="order && order.waiting" [items]="order" (SelectedOrder)="selectedItem($event)"></ion-segment-order>\n\n  </ion-orders>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\mosthamapp\thamturakit-biz\src\pages\order\order.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__ngcommerce_core__["o" /* OrderService */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]])
 ], OrderPage);
@@ -787,7 +787,7 @@ var OrderDetailPage = (function () {
 }());
 OrderDetailPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-order-detail',template:/*ion-inline-start:"C:\Users\TEMP\Desktop\thamturakit-biz\src\pages\order-detail\order-detail.html"*/'<!--\n\n  Generated template for the OrderDetailPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>orderDetail</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content>\n\n  <ion-detail-order [item]="items"></ion-detail-order>\n\n</ion-content>\n\n\n\n<ion-footer>\n\n  <button ion-button block id="btnStatus" *ngIf="items.status !== \'return\'" (click)="updateStatus(items)">{{items.status === \'waiting\' ? \'Accept\' : items.status === \'accept\' ? \'Sent\': items.status === \'sent\' ? \'Complete\':\'Return\'}}</button>\n\n  <button ion-button block id="btnReject" *ngIf="items.status === \'waiting\'" (click)="updateStatusReject(items)">Reject</button>\n\n</ion-footer>'/*ion-inline-end:"C:\Users\TEMP\Desktop\thamturakit-biz\src\pages\order-detail\order-detail.html"*/,
+        selector: 'page-order-detail',template:/*ion-inline-start:"D:\mosthamapp\thamturakit-biz\src\pages\order-detail\order-detail.html"*/'<!--\n\n  Generated template for the OrderDetailPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>orderDetail</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content>\n\n  <ion-detail-order [item]="items"></ion-detail-order>\n\n</ion-content>\n\n\n\n<ion-footer>\n\n  <button ion-button block id="btnStatus" *ngIf="items.status !== \'return\'" (click)="updateStatus(items)">{{items.status === \'waiting\' ? \'Accept\' : items.status === \'accept\' ? \'Sent\': items.status === \'sent\' ? \'Complete\':\'Return\'}}</button>\n\n  <button ion-button block id="btnReject" *ngIf="items.status === \'waiting\'" (click)="updateStatusReject(items)">Reject</button>\n\n</ion-footer>'/*ion-inline-end:"D:\mosthamapp\thamturakit-biz\src\pages\order-detail\order-detail.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__ngcommerce_core__["o" /* OrderService */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]])
 ], OrderDetailPage);
@@ -855,7 +855,7 @@ var RegisterPage = (function () {
 }());
 RegisterPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-register',template:/*ion-inline-start:"C:\Users\TEMP\Desktop\thamturakit-biz\src\pages\register\register.html"*/'<!--\n\n  Generated template for the RegisterPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Register</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n  <ion-item>\n\n    <ion-label floating>Username</ion-label>\n\n    <ion-input type="text" [(ngModel)]="user.username"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n    <ion-label floating>Password</ion-label>\n\n    <ion-input type="password" [(ngModel)]="user.password"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n    <ion-label floating>Email</ion-label>\n\n    <ion-input type="text" [(ngModel)]="user.email"></ion-input>\n\n  </ion-item>\n\n  <ion-item>\n\n    <ion-label floating>First name</ion-label>\n\n    <ion-input type="" [(ngModel)]="user.first_name"></ion-input>\n\n  </ion-item>\n\n  <ion-item>\n\n    <ion-label floating>Last names</ion-label>\n\n    <ion-input type="" [(ngModel)]="user.last_name"></ion-input>\n\n  </ion-item>\n\n  <button ion-button (click)="register()">Submit</button>\n\n\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\TEMP\Desktop\thamturakit-biz\src\pages\register\register.html"*/,
+        selector: 'page-register',template:/*ion-inline-start:"D:\mosthamapp\thamturakit-biz\src\pages\register\register.html"*/'<!--\n\n  Generated template for the RegisterPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Register</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n  <ion-item>\n\n    <ion-label floating>Username</ion-label>\n\n    <ion-input type="text" [(ngModel)]="user.username"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n    <ion-label floating>Password</ion-label>\n\n    <ion-input type="password" [(ngModel)]="user.password"></ion-input>\n\n  </ion-item>\n\n\n\n  <ion-item>\n\n    <ion-label floating>Email</ion-label>\n\n    <ion-input type="text" [(ngModel)]="user.email"></ion-input>\n\n  </ion-item>\n\n  <ion-item>\n\n    <ion-label floating>First name</ion-label>\n\n    <ion-input type="" [(ngModel)]="user.first_name"></ion-input>\n\n  </ion-item>\n\n  <ion-item>\n\n    <ion-label floating>Last names</ion-label>\n\n    <ion-input type="" [(ngModel)]="user.last_name"></ion-input>\n\n  </ion-item>\n\n  <button ion-button (click)="register()">Submit</button>\n\n\n\n\n\n</ion-content>'/*ion-inline-end:"D:\mosthamapp\thamturakit-biz\src\pages\register\register.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__ngcommerce_core__["a" /* AuthenService */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]])
 ], RegisterPage);
@@ -886,7 +886,7 @@ webpackEmptyAsyncContext.id = 134;
 
 var map = {
 	"../pages/account/account.module": [
-		507,
+		508,
 		11
 	],
 	"../pages/creat-product/creat-product.module": [
@@ -894,43 +894,43 @@ var map = {
 		10
 	],
 	"../pages/createshop/createshop.module": [
-		508,
+		509,
 		9
 	],
 	"../pages/listshop/listshop.module": [
-		510,
+		511,
 		8
 	],
 	"../pages/login/login.module": [
-		511,
+		512,
 		7
 	],
 	"../pages/notification/notification.module": [
-		512,
+		513,
 		6
 	],
 	"../pages/order-detail/order-detail.module": [
-		513,
+		514,
 		5
 	],
 	"../pages/order/order.module": [
-		514,
+		515,
 		4
 	],
 	"../pages/product-detail/product-detail.module": [
-		515,
+		516,
 		3
 	],
 	"../pages/product/product.module": [
-		518,
+		517,
 		2
 	],
 	"../pages/register/register.module": [
-		517,
+		518,
 		1
 	],
 	"../pages/tabs/tabs.module": [
-		518,
+		519,
 		0
 	]
 };
@@ -958,7 +958,7 @@ module.exports = webpackAsyncContext;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngcommerce_core__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_chart_js__ = __webpack_require__(436);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_chart_js__ = __webpack_require__(438);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_chart_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_chart_js__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1078,7 +1078,7 @@ __decorate([
 ], HomePage.prototype, "lineCanvas", void 0);
 HomePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-home',template:/*ion-inline-start:"C:\Users\TEMP\Desktop\thamturakit-biz\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      Home\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content no-padding>\n\n  <ion-card>\n\n    <ion-card-header>\n\n      Line Chart\n\n    </ion-card-header>\n\n    <ion-card-content>\n\n      <canvas #lineCanvas></canvas>\n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n  <ion-card>\n\n    <ion-card-header>\n\n      Doughnut Chart\n\n    </ion-card-header>\n\n    <ion-card-content>\n\n      <canvas #doughnutCanvas></canvas>\n\n    </ion-card-content>\n\n  </ion-card>\n\n</ion-content>'/*ion-inline-end:"C:\Users\TEMP\Desktop\thamturakit-biz\src\pages\home\home.html"*/
+        selector: 'page-home',template:/*ion-inline-start:"D:\mosthamapp\thamturakit-biz\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      Home\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content no-padding>\n\n  <ion-card>\n\n    <ion-card-header>\n\n      Line Chart\n\n    </ion-card-header>\n\n    <ion-card-content>\n\n      <canvas #lineCanvas></canvas>\n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n  <ion-card>\n\n    <ion-card-header>\n\n      Doughnut Chart\n\n    </ion-card-header>\n\n    <ion-card-content>\n\n      <canvas #doughnutCanvas></canvas>\n\n    </ion-card-content>\n\n  </ion-card>\n\n</ion-content>'/*ion-inline-end:"D:\mosthamapp\thamturakit-biz\src\pages\home\home.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__ngcommerce_core__["o" /* OrderService */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]])
 ], HomePage);
@@ -1087,13 +1087,13 @@ HomePage = __decorate([
 
 /***/ }),
 
-/***/ 357:
+/***/ 359:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(358);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(376);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(360);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(378);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -1101,13 +1101,13 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 376:
+/***/ 378:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pages_createshop_createshop__ = __webpack_require__(65);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_native_onesignal__ = __webpack_require__(353);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_native_onesignal__ = __webpack_require__(355);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages_notification_notification__ = __webpack_require__(120);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages_product_product__ = __webpack_require__(121);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_order_order__ = __webpack_require__(123);
@@ -1118,16 +1118,16 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__angular_platform_browser__ = __webpack_require__(37);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__app_component__ = __webpack_require__(502);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_about_about__ = __webpack_require__(503);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_contact_contact__ = __webpack_require__(504);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__app_component__ = __webpack_require__(503);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_about_about__ = __webpack_require__(504);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_contact_contact__ = __webpack_require__(505);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_tabs_tabs__ = __webpack_require__(66);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__ionic_native_status_bar__ = __webpack_require__(354);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__ionic_native_splash_screen__ = __webpack_require__(355);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__ionic_native_facebook__ = __webpack_require__(313);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__ionic_native_status_bar__ = __webpack_require__(356);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__ionic_native_splash_screen__ = __webpack_require__(357);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__ionic_native_facebook__ = __webpack_require__(315);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__angular_http__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__ngcommerce_core__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21_ionic2_rating__ = __webpack_require__(505);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21_ionic2_rating__ = __webpack_require__(506);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_order_detail_order_detail__ = __webpack_require__(124);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_product_detail_product_detail__ = __webpack_require__(122);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_creat_product_creat_product__ = __webpack_require__(118);
@@ -1210,8 +1210,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_21_ionic2_rating__["a" /* Ionic2RatingModule */],
             __WEBPACK_IMPORTED_MODULE_11_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_12__app_component__["a" /* MyApp */], {}, {
                 links: [
-                    { loadChildren: '../pages/createshop/createshop.module#CreateshopPageModule', name: 'CreateshopPage', segment: 'createshop', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/account/account.module#AccountPageModule', name: 'AccountPage', segment: 'account', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/createshop/createshop.module#CreateshopPageModule', name: 'CreateshopPage', segment: 'createshop', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/creat-product/creat-product.module#CreatProductPageModule', name: 'CreatProductPage', segment: 'creat-product', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/listshop/listshop.module#ListshopPageModule', name: 'ListshopPage', segment: 'listshop', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
@@ -1219,8 +1219,8 @@ AppModule = __decorate([
                     { loadChildren: '../pages/order-detail/order-detail.module#OrderDetailPageModule', name: 'OrderDetailPage', segment: 'order-detail', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/order/order.module#OrderPageModule', name: 'OrderPage', segment: 'order', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/product-detail/product-detail.module#ProductDetailPageModule', name: 'ProductDetailPage', segment: 'product-detail', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/register/register.module#RegisterPageModule', name: 'RegisterPage', segment: 'register', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/product/product.module#ProductPageModule', name: 'ProductPage', segment: 'product', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/register/register.module#RegisterPageModule', name: 'RegisterPage', segment: 'register', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/tabs/tabs.module#TabsPageModule', name: 'TabsPage', segment: 'tabs', priority: 'low', defaultHistory: [] }
                 ]
             }),
@@ -1261,240 +1261,240 @@ AppModule = __decorate([
 
 /***/ }),
 
-/***/ 467:
+/***/ 468:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./af": 198,
-	"./af.js": 198,
-	"./ar": 199,
-	"./ar-dz": 200,
-	"./ar-dz.js": 200,
-	"./ar-kw": 201,
-	"./ar-kw.js": 201,
-	"./ar-ly": 202,
-	"./ar-ly.js": 202,
-	"./ar-ma": 203,
-	"./ar-ma.js": 203,
-	"./ar-sa": 204,
-	"./ar-sa.js": 204,
-	"./ar-tn": 205,
-	"./ar-tn.js": 205,
-	"./ar.js": 199,
-	"./az": 206,
-	"./az.js": 206,
-	"./be": 207,
-	"./be.js": 207,
-	"./bg": 208,
-	"./bg.js": 208,
-	"./bn": 209,
-	"./bn.js": 209,
-	"./bo": 210,
-	"./bo.js": 210,
-	"./br": 211,
-	"./br.js": 211,
-	"./bs": 212,
-	"./bs.js": 212,
-	"./ca": 213,
-	"./ca.js": 213,
-	"./cs": 214,
-	"./cs.js": 214,
-	"./cv": 215,
-	"./cv.js": 215,
-	"./cy": 216,
-	"./cy.js": 216,
-	"./da": 217,
-	"./da.js": 217,
-	"./de": 218,
-	"./de-at": 219,
-	"./de-at.js": 219,
-	"./de-ch": 220,
-	"./de-ch.js": 220,
-	"./de.js": 218,
-	"./dv": 221,
-	"./dv.js": 221,
-	"./el": 222,
-	"./el.js": 222,
-	"./en-au": 223,
-	"./en-au.js": 223,
-	"./en-ca": 224,
-	"./en-ca.js": 224,
-	"./en-gb": 225,
-	"./en-gb.js": 225,
-	"./en-ie": 226,
-	"./en-ie.js": 226,
-	"./en-nz": 227,
-	"./en-nz.js": 227,
-	"./eo": 228,
-	"./eo.js": 228,
-	"./es": 229,
-	"./es-do": 230,
-	"./es-do.js": 230,
-	"./es.js": 229,
-	"./et": 231,
-	"./et.js": 231,
-	"./eu": 232,
-	"./eu.js": 232,
-	"./fa": 233,
-	"./fa.js": 233,
-	"./fi": 234,
-	"./fi.js": 234,
-	"./fo": 235,
-	"./fo.js": 235,
-	"./fr": 236,
-	"./fr-ca": 237,
-	"./fr-ca.js": 237,
-	"./fr-ch": 238,
-	"./fr-ch.js": 238,
-	"./fr.js": 236,
-	"./fy": 239,
-	"./fy.js": 239,
-	"./gd": 240,
-	"./gd.js": 240,
-	"./gl": 241,
-	"./gl.js": 241,
-	"./gom-latn": 242,
-	"./gom-latn.js": 242,
-	"./he": 243,
-	"./he.js": 243,
-	"./hi": 244,
-	"./hi.js": 244,
-	"./hr": 245,
-	"./hr.js": 245,
-	"./hu": 246,
-	"./hu.js": 246,
-	"./hy-am": 247,
-	"./hy-am.js": 247,
-	"./id": 248,
-	"./id.js": 248,
-	"./is": 249,
-	"./is.js": 249,
-	"./it": 250,
-	"./it.js": 250,
-	"./ja": 251,
-	"./ja.js": 251,
-	"./jv": 252,
-	"./jv.js": 252,
-	"./ka": 253,
-	"./ka.js": 253,
-	"./kk": 254,
-	"./kk.js": 254,
-	"./km": 255,
-	"./km.js": 255,
-	"./kn": 256,
-	"./kn.js": 256,
-	"./ko": 257,
-	"./ko.js": 257,
-	"./ky": 258,
-	"./ky.js": 258,
-	"./lb": 259,
-	"./lb.js": 259,
-	"./lo": 260,
-	"./lo.js": 260,
-	"./lt": 261,
-	"./lt.js": 261,
-	"./lv": 262,
-	"./lv.js": 262,
-	"./me": 263,
-	"./me.js": 263,
-	"./mi": 264,
-	"./mi.js": 264,
-	"./mk": 265,
-	"./mk.js": 265,
-	"./ml": 266,
-	"./ml.js": 266,
-	"./mr": 267,
-	"./mr.js": 267,
-	"./ms": 268,
-	"./ms-my": 269,
-	"./ms-my.js": 269,
-	"./ms.js": 268,
-	"./my": 270,
-	"./my.js": 270,
-	"./nb": 271,
-	"./nb.js": 271,
-	"./ne": 272,
-	"./ne.js": 272,
-	"./nl": 273,
-	"./nl-be": 274,
-	"./nl-be.js": 274,
-	"./nl.js": 273,
-	"./nn": 275,
-	"./nn.js": 275,
-	"./pa-in": 276,
-	"./pa-in.js": 276,
-	"./pl": 277,
-	"./pl.js": 277,
-	"./pt": 278,
-	"./pt-br": 279,
-	"./pt-br.js": 279,
-	"./pt.js": 278,
-	"./ro": 280,
-	"./ro.js": 280,
-	"./ru": 281,
-	"./ru.js": 281,
-	"./sd": 282,
-	"./sd.js": 282,
-	"./se": 283,
-	"./se.js": 283,
-	"./si": 284,
-	"./si.js": 284,
-	"./sk": 285,
-	"./sk.js": 285,
-	"./sl": 286,
-	"./sl.js": 286,
-	"./sq": 287,
-	"./sq.js": 287,
-	"./sr": 288,
-	"./sr-cyrl": 289,
-	"./sr-cyrl.js": 289,
-	"./sr.js": 288,
-	"./ss": 290,
-	"./ss.js": 290,
-	"./sv": 291,
-	"./sv.js": 291,
-	"./sw": 292,
-	"./sw.js": 292,
-	"./ta": 293,
-	"./ta.js": 293,
-	"./te": 294,
-	"./te.js": 294,
-	"./tet": 295,
-	"./tet.js": 295,
-	"./th": 296,
-	"./th.js": 296,
-	"./tl-ph": 297,
-	"./tl-ph.js": 297,
-	"./tlh": 298,
-	"./tlh.js": 298,
-	"./tr": 299,
-	"./tr.js": 299,
-	"./tzl": 300,
-	"./tzl.js": 300,
-	"./tzm": 301,
-	"./tzm-latn": 302,
-	"./tzm-latn.js": 302,
-	"./tzm.js": 301,
-	"./uk": 303,
-	"./uk.js": 303,
-	"./ur": 304,
-	"./ur.js": 304,
-	"./uz": 305,
-	"./uz-latn": 306,
-	"./uz-latn.js": 306,
-	"./uz.js": 305,
-	"./vi": 307,
-	"./vi.js": 307,
-	"./x-pseudo": 308,
-	"./x-pseudo.js": 308,
-	"./yo": 309,
-	"./yo.js": 309,
-	"./zh-cn": 310,
-	"./zh-cn.js": 310,
-	"./zh-hk": 311,
-	"./zh-hk.js": 311,
-	"./zh-tw": 312,
-	"./zh-tw.js": 312
+	"./af": 200,
+	"./af.js": 200,
+	"./ar": 201,
+	"./ar-dz": 202,
+	"./ar-dz.js": 202,
+	"./ar-kw": 203,
+	"./ar-kw.js": 203,
+	"./ar-ly": 204,
+	"./ar-ly.js": 204,
+	"./ar-ma": 205,
+	"./ar-ma.js": 205,
+	"./ar-sa": 206,
+	"./ar-sa.js": 206,
+	"./ar-tn": 207,
+	"./ar-tn.js": 207,
+	"./ar.js": 201,
+	"./az": 208,
+	"./az.js": 208,
+	"./be": 209,
+	"./be.js": 209,
+	"./bg": 210,
+	"./bg.js": 210,
+	"./bn": 211,
+	"./bn.js": 211,
+	"./bo": 212,
+	"./bo.js": 212,
+	"./br": 213,
+	"./br.js": 213,
+	"./bs": 214,
+	"./bs.js": 214,
+	"./ca": 215,
+	"./ca.js": 215,
+	"./cs": 216,
+	"./cs.js": 216,
+	"./cv": 217,
+	"./cv.js": 217,
+	"./cy": 218,
+	"./cy.js": 218,
+	"./da": 219,
+	"./da.js": 219,
+	"./de": 220,
+	"./de-at": 221,
+	"./de-at.js": 221,
+	"./de-ch": 222,
+	"./de-ch.js": 222,
+	"./de.js": 220,
+	"./dv": 223,
+	"./dv.js": 223,
+	"./el": 224,
+	"./el.js": 224,
+	"./en-au": 225,
+	"./en-au.js": 225,
+	"./en-ca": 226,
+	"./en-ca.js": 226,
+	"./en-gb": 227,
+	"./en-gb.js": 227,
+	"./en-ie": 228,
+	"./en-ie.js": 228,
+	"./en-nz": 229,
+	"./en-nz.js": 229,
+	"./eo": 230,
+	"./eo.js": 230,
+	"./es": 231,
+	"./es-do": 232,
+	"./es-do.js": 232,
+	"./es.js": 231,
+	"./et": 233,
+	"./et.js": 233,
+	"./eu": 234,
+	"./eu.js": 234,
+	"./fa": 235,
+	"./fa.js": 235,
+	"./fi": 236,
+	"./fi.js": 236,
+	"./fo": 237,
+	"./fo.js": 237,
+	"./fr": 238,
+	"./fr-ca": 239,
+	"./fr-ca.js": 239,
+	"./fr-ch": 240,
+	"./fr-ch.js": 240,
+	"./fr.js": 238,
+	"./fy": 241,
+	"./fy.js": 241,
+	"./gd": 242,
+	"./gd.js": 242,
+	"./gl": 243,
+	"./gl.js": 243,
+	"./gom-latn": 244,
+	"./gom-latn.js": 244,
+	"./he": 245,
+	"./he.js": 245,
+	"./hi": 246,
+	"./hi.js": 246,
+	"./hr": 247,
+	"./hr.js": 247,
+	"./hu": 248,
+	"./hu.js": 248,
+	"./hy-am": 249,
+	"./hy-am.js": 249,
+	"./id": 250,
+	"./id.js": 250,
+	"./is": 251,
+	"./is.js": 251,
+	"./it": 252,
+	"./it.js": 252,
+	"./ja": 253,
+	"./ja.js": 253,
+	"./jv": 254,
+	"./jv.js": 254,
+	"./ka": 255,
+	"./ka.js": 255,
+	"./kk": 256,
+	"./kk.js": 256,
+	"./km": 257,
+	"./km.js": 257,
+	"./kn": 258,
+	"./kn.js": 258,
+	"./ko": 259,
+	"./ko.js": 259,
+	"./ky": 260,
+	"./ky.js": 260,
+	"./lb": 261,
+	"./lb.js": 261,
+	"./lo": 262,
+	"./lo.js": 262,
+	"./lt": 263,
+	"./lt.js": 263,
+	"./lv": 264,
+	"./lv.js": 264,
+	"./me": 265,
+	"./me.js": 265,
+	"./mi": 266,
+	"./mi.js": 266,
+	"./mk": 267,
+	"./mk.js": 267,
+	"./ml": 268,
+	"./ml.js": 268,
+	"./mr": 269,
+	"./mr.js": 269,
+	"./ms": 270,
+	"./ms-my": 271,
+	"./ms-my.js": 271,
+	"./ms.js": 270,
+	"./my": 272,
+	"./my.js": 272,
+	"./nb": 273,
+	"./nb.js": 273,
+	"./ne": 274,
+	"./ne.js": 274,
+	"./nl": 275,
+	"./nl-be": 276,
+	"./nl-be.js": 276,
+	"./nl.js": 275,
+	"./nn": 277,
+	"./nn.js": 277,
+	"./pa-in": 278,
+	"./pa-in.js": 278,
+	"./pl": 279,
+	"./pl.js": 279,
+	"./pt": 280,
+	"./pt-br": 281,
+	"./pt-br.js": 281,
+	"./pt.js": 280,
+	"./ro": 282,
+	"./ro.js": 282,
+	"./ru": 283,
+	"./ru.js": 283,
+	"./sd": 284,
+	"./sd.js": 284,
+	"./se": 285,
+	"./se.js": 285,
+	"./si": 286,
+	"./si.js": 286,
+	"./sk": 287,
+	"./sk.js": 287,
+	"./sl": 288,
+	"./sl.js": 288,
+	"./sq": 289,
+	"./sq.js": 289,
+	"./sr": 290,
+	"./sr-cyrl": 291,
+	"./sr-cyrl.js": 291,
+	"./sr.js": 290,
+	"./ss": 292,
+	"./ss.js": 292,
+	"./sv": 293,
+	"./sv.js": 293,
+	"./sw": 294,
+	"./sw.js": 294,
+	"./ta": 295,
+	"./ta.js": 295,
+	"./te": 296,
+	"./te.js": 296,
+	"./tet": 297,
+	"./tet.js": 297,
+	"./th": 298,
+	"./th.js": 298,
+	"./tl-ph": 299,
+	"./tl-ph.js": 299,
+	"./tlh": 300,
+	"./tlh.js": 300,
+	"./tr": 301,
+	"./tr.js": 301,
+	"./tzl": 302,
+	"./tzl.js": 302,
+	"./tzm": 303,
+	"./tzm-latn": 304,
+	"./tzm-latn.js": 304,
+	"./tzm.js": 303,
+	"./uk": 305,
+	"./uk.js": 305,
+	"./ur": 306,
+	"./ur.js": 306,
+	"./uz": 307,
+	"./uz-latn": 308,
+	"./uz-latn.js": 308,
+	"./uz.js": 307,
+	"./vi": 309,
+	"./vi.js": 309,
+	"./x-pseudo": 310,
+	"./x-pseudo.js": 310,
+	"./yo": 311,
+	"./yo.js": 311,
+	"./zh-cn": 312,
+	"./zh-cn.js": 312,
+	"./zh-hk": 313,
+	"./zh-hk.js": 313,
+	"./zh-tw": 314,
+	"./zh-tw.js": 314
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -1510,21 +1510,21 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 467;
+webpackContext.id = 468;
 
 /***/ }),
 
-/***/ 502:
+/***/ 503:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pages_login_login__ = __webpack_require__(119);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_onesignal__ = __webpack_require__(353);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_onesignal__ = __webpack_require__(355);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(354);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_splash_screen__ = __webpack_require__(355);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(356);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_splash_screen__ = __webpack_require__(357);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ngcommerce_core__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_tabs_tabs__ = __webpack_require__(66);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -1624,7 +1624,7 @@ var MyApp = (function () {
     return MyApp;
 }());
 MyApp = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["n" /* Component */])({template:/*ion-inline-start:"C:\Users\TEMP\Desktop\thamturakit-biz\src\app\app.html"*/'<ion-menu [content]="content">\n\n  <ion-header>\n\n    <ion-toolbar>\n\n      <ion-title>ร้านค้าของคุณ</ion-title>\n\n    </ion-toolbar>\n\n  </ion-header>\n\n  <ion-content>\n\n    <div *ngIf="shopList && shopList.length > 0">\n\n      <ion-item *ngFor="let item of shopList" (click)="selectShop(item)" menuClose>\n\n        <ion-avatar item-left>\n\n          <img [src]="item.image">\n\n        </ion-avatar>\n\n        <h2>{{item.name}}</h2>\n\n        <ion-icon item-end name="md-checkmark" *ngIf="isShow(item._id)"></ion-icon>\n\n      </ion-item>\n\n    </div>\n\n  </ion-content>\n\n</ion-menu>\n\n\n\n<ion-nav id="nav" #content [root]="rootPage"></ion-nav>\n\n'/*ion-inline-end:"C:\Users\TEMP\Desktop\thamturakit-biz\src\app\app.html"*/
+    Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["n" /* Component */])({template:/*ion-inline-start:"D:\mosthamapp\thamturakit-biz\src\app\app.html"*/'<ion-menu [content]="content">\n\n  <ion-header>\n\n    <ion-toolbar>\n\n      <ion-title>ร้านค้าของคุณ</ion-title>\n\n    </ion-toolbar>\n\n  </ion-header>\n\n  <ion-content>\n\n    <div *ngIf="shopList && shopList.length > 0">\n\n      <ion-item *ngFor="let item of shopList" (click)="selectShop(item)" menuClose>\n\n        <ion-avatar item-left>\n\n          <img [src]="item.image">\n\n        </ion-avatar>\n\n        <h2>{{item.name}}</h2>\n\n        <ion-icon item-end name="md-checkmark" *ngIf="isShow(item._id)"></ion-icon>\n\n      </ion-item>\n\n    </div>\n\n  </ion-content>\n\n</ion-menu>\n\n\n\n<ion-nav id="nav" #content [root]="rootPage"></ion-nav>\n\n'/*ion-inline-end:"D:\mosthamapp\thamturakit-biz\src\app\app.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_6__ngcommerce_core__["r" /* ShopService */],
         __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["k" /* Platform */],
@@ -1639,7 +1639,7 @@ MyApp = __decorate([
 
 /***/ }),
 
-/***/ 503:
+/***/ 504:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1665,7 +1665,7 @@ var AboutPage = (function () {
 }());
 AboutPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-about',template:/*ion-inline-start:"C:\Users\TEMP\Desktop\thamturakit-biz\src\pages\about\about.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      About\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\TEMP\Desktop\thamturakit-biz\src\pages\about\about.html"*/
+        selector: 'page-about',template:/*ion-inline-start:"D:\mosthamapp\thamturakit-biz\src\pages\about\about.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      About\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"D:\mosthamapp\thamturakit-biz\src\pages\about\about.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
 ], AboutPage);
@@ -1674,7 +1674,7 @@ AboutPage = __decorate([
 
 /***/ }),
 
-/***/ 504:
+/***/ 505:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1700,7 +1700,7 @@ var ContactPage = (function () {
 }());
 ContactPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-contact',template:/*ion-inline-start:"C:\Users\TEMP\Desktop\thamturakit-biz\src\pages\contact\contact.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      Contact\n\n    </ion-title>\n\n    <ion-buttons start>\n\n      <button ion-button menuToggle icon-only>\n\n        <ion-icon name="md-list"></ion-icon>\n\n      </button>\n\n    </ion-buttons>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n  <ion-list>\n\n    <ion-list-header>Follow us on Twitter</ion-list-header>\n\n    <ion-item>\n\n      <ion-icon name="ionic" item-left></ion-icon>\n\n      @ionicframework\n\n    </ion-item>\n\n  </ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\TEMP\Desktop\thamturakit-biz\src\pages\contact\contact.html"*/
+        selector: 'page-contact',template:/*ion-inline-start:"D:\mosthamapp\thamturakit-biz\src\pages\contact\contact.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      Contact\n\n    </ion-title>\n\n    <ion-buttons start>\n\n      <button ion-button menuToggle icon-only>\n\n        <ion-icon name="md-list"></ion-icon>\n\n      </button>\n\n    </ion-buttons>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n  <ion-list>\n\n    <ion-list-header>Follow us on Twitter</ion-list-header>\n\n    <ion-item>\n\n      <ion-icon name="ionic" item-left></ion-icon>\n\n      @ionicframework\n\n    </ion-item>\n\n  </ion-list>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\mosthamapp\thamturakit-biz\src\pages\contact\contact.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
 ], ContactPage);
@@ -1749,7 +1749,7 @@ var CreateshopPage = (function () {
 }());
 CreateshopPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-createshop',template:/*ion-inline-start:"C:\Users\TEMP\Desktop\thamturakit-biz\src\pages\createshop\createshop.html"*/'<!--\n\n  Generated template for the CreateshopPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>createshop</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n<ion-content>\n\n<ion-form-shop (createShop)="createShop($event)"></ion-form-shop>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\TEMP\Desktop\thamturakit-biz\src\pages\createshop\createshop.html"*/,
+        selector: 'page-createshop',template:/*ion-inline-start:"D:\mosthamapp\thamturakit-biz\src\pages\createshop\createshop.html"*/'<!--\n\n  Generated template for the CreateshopPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>createshop</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n<ion-content>\n\n<ion-form-shop (createShop)="createShop($event)"></ion-form-shop>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\mosthamapp\thamturakit-biz\src\pages\createshop\createshop.html"*/,
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ViewController */]])
 ], CreateshopPage);
@@ -1841,7 +1841,7 @@ var TabsPage = (function () {
 }());
 TabsPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_7__angular_core__["n" /* Component */])({
-        selector: 'page-tabs',template:/*ion-inline-start:"C:\Users\TEMP\Desktop\thamturakit-biz\src\pages\tabs\tabs.html"*/'<ion-tabs>\n\n  <ion-tab [root]="tab1Root" tabTitle="Home" tabIcon="home"></ion-tab>\n\n  <ion-tab [root]="tab2Root" tabTitle="Orders" tabIcon="md-list-box"></ion-tab>\n\n  <ion-tab [root]="tab3Root" tabTitle="Products" tabIcon="md-cube"></ion-tab>\n\n  <ion-tab [root]="tab4Root" tabTitle="Notifications" tabIcon="md-notifications-outline"></ion-tab>\n\n  <ion-tab [root]="tab5Root" tabTitle="Profile" tabIcon="person"></ion-tab>\n\n</ion-tabs>\n\n'/*ion-inline-end:"C:\Users\TEMP\Desktop\thamturakit-biz\src\pages\tabs\tabs.html"*/
+        selector: 'page-tabs',template:/*ion-inline-start:"D:\mosthamapp\thamturakit-biz\src\pages\tabs\tabs.html"*/'<ion-tabs>\n\n  <ion-tab [root]="tab1Root" tabTitle="Home" tabIcon="home"></ion-tab>\n\n  <ion-tab [root]="tab2Root" tabTitle="Orders" tabIcon="md-list-box"></ion-tab>\n\n  <ion-tab [root]="tab3Root" tabTitle="Products" tabIcon="md-cube"></ion-tab>\n\n  <ion-tab [root]="tab4Root" tabTitle="Notifications" tabIcon="md-notifications-outline"></ion-tab>\n\n  <ion-tab [root]="tab5Root" tabTitle="Profile" tabIcon="person"></ion-tab>\n\n</ion-tabs>\n\n'/*ion-inline-end:"D:\mosthamapp\thamturakit-biz\src\pages\tabs\tabs.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__ngcommerce_core__["r" /* ShopService */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ModalController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]])
 ], TabsPage);
@@ -1850,5 +1850,5 @@ TabsPage = __decorate([
 
 /***/ })
 
-},[357]);
+},[359]);
 //# sourceMappingURL=main.js.map
