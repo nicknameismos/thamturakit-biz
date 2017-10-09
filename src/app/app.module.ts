@@ -66,7 +66,7 @@ import { Base64 } from "@ionic-native/base64";
     HttpModule,
     Ionic2RatingModule,
     IonicModule.forRoot(MyApp),
-    EcommerceCoreModule.forRoot('https://greenvintage-v2.herokuapp.com/api/')
+    EcommerceCoreModule.forRoot('https://thamturakit.herokuapp.com/api/')
   ],
   bootstrap: [IonicApp],
   entryComponents: [
