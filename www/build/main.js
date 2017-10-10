@@ -890,11 +890,11 @@ var map = {
 		11
 	],
 	"../pages/creat-product/creat-product.module": [
-		510,
+		509,
 		10
 	],
 	"../pages/createshop/createshop.module": [
-		509,
+		510,
 		9
 	],
 	"../pages/listshop/listshop.module": [
@@ -1211,8 +1211,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_11_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_12__app_component__["a" /* MyApp */], {}, {
                 links: [
                     { loadChildren: '../pages/account/account.module#AccountPageModule', name: 'AccountPage', segment: 'account', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/createshop/createshop.module#CreateshopPageModule', name: 'CreateshopPage', segment: 'createshop', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/creat-product/creat-product.module#CreatProductPageModule', name: 'CreatProductPage', segment: 'creat-product', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/createshop/createshop.module#CreateshopPageModule', name: 'CreateshopPage', segment: 'createshop', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/listshop/listshop.module#ListshopPageModule', name: 'ListshopPage', segment: 'listshop', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/notification/notification.module#NotificationPageModule', name: 'NotificationPage', segment: 'notification', priority: 'low', defaultHistory: [] },
