@@ -38,7 +38,7 @@ export class MyApp {
   }
 
   initOnesignal() {
-    this.oneSignal.startInit('fdfae3dc-e634-47f4-b959-f04e60f4613b', '464766391164');
+    this.oneSignal.startInit('4b62e07d-3f2d-46a0-96f1-542b2fb46bd4', '878156639989');
 
     this.oneSignal.inFocusDisplaying(this.oneSignal.OSInFocusDisplayOption.InAppAlert);
 

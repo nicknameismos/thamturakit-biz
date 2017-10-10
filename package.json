@@ -1,5 +1,5 @@
 {
-    "name": "G-Vintage-Biz",
+    "name": "Thamturakit-Biz",
     "version": "0.0.1",
     "author": "Ionic Framework",
     "homepage": "http://ionicframework.com/",
@@ -60,8 +60,8 @@
             "ionic-plugin-keyboard": {},
             "onesignal-cordova-plugin": {},
             "cordova-plugin-facebook4": {
-                "APP_ID": "2017142665188943",
-                "APP_NAME": "G-Vintage"
+                "APP_ID": "357176648040078",
+                "APP_NAME": "Thamturakit-Biz"
             },
             "com.synconset.imagepicker": {
                 "PHOTO_LIBRARY_USAGE_DESCRIPTION": "your usage message"
